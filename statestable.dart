@@ -1,4 +1,4 @@
-import 'package:covid19/models/apicovid19_main.dart';
+import '/apicovid19_main.dart';
 import 'package:flutter/material.dart';
 
 class DataTableExample extends StatefulWidget {
