@@ -1,11 +1,10 @@
 import 'dart:ffi';
-//import 'dart:html';
-import 'package:covid19/components/counter.dart';
-import 'package:covid19/components/statestable.dart';
-import 'package:covid19/components/totalcasesgraph.dart';
+import 'counter.dart';
+import 'statestable.dart';
+import 'totalcasesgraph.dart';
 
-import 'package:covid19/models/apicovid19_main.dart';
-import 'package:covid19/models/constant.dart';
+import 'apicovid19_main.dart';
+import 'constant.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
